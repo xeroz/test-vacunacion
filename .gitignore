@@ -1,12 +1,14 @@
-.DS_Store
-node_modules
-/dist
-
-
 # local env files
 .env.local
 .env.*.local
+
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
 .serverless
+.dynamodb
 
 # Log files
 npm-debug.log*
